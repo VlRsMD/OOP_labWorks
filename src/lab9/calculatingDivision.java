@@ -1,12 +1,12 @@
 package lab9;
 import java.awt.*;
 
-class LearnAWT extends Frame {
+class AWT extends Frame {
     TextField n1;
     TextField n2;
     Label l1;
     Button b;
-    LearnAWT() {
+    AWT() {
         setTitle("Divider");
         n1 = new TextField();
         n1.setBounds(100, 50, 85, 20);
@@ -50,6 +50,7 @@ class LearnAWT extends Frame {
         }
     }
     public static void main(String []args) {
-        new LearnAWT();
+        new AWT();
     }
 }
+
